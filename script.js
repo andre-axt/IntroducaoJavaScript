@@ -55,7 +55,8 @@ inverterTexto("javascript")
 
 let palavra = "pastel"
 function CountCaracter(str) {
-    print(str.length)
+    var n = str.length
+    console.log(n)
 }
 CountCaracter(palavra)
 
